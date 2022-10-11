@@ -1,3 +1,4 @@
+import 'package:counterapp_cubit/timer/view/timer_page.dart';
 import 'package:flutter/material.dart';
 
 import 'counter/view/counter_page.dart';
@@ -9,7 +10,8 @@ class CounterApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CounterPage(),
+      home: TimerPage(),
+      // CounterPage(),
     );
   }
 }
